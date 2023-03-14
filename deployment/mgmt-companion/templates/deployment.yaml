@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: managementconsolecompanion
+  namespace: mgmt-companion
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: managementconsolecompanion
+  template:
+    metadata:
+      labels:
+        app: managementconsolecompanion
+    spec:
+      containers:
+        - name: managementconsolecompanion
+          image: ghcr.io/united-manufacturing-hub/managementconsolecompanion:latest
+          volumeMounts:
+            - name: certs
+              mountPath: /certs
+              readOnly: true
+      volumes:
+        - name: certs
+          hostPath:
+            path: {{.Values.companion.certs.hostpath}}
