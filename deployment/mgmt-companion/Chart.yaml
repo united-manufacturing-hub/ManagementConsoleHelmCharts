@@ -1,0 +1,8 @@
+apiVersion: v2
+name: mgmt-companion
+description: This helm charts deploys the companion plugin for the management console
+
+type: application
+
+version: 0.0.0
+appVersion: "0.0.0"
