@@ -22,5 +22,5 @@ spec:
               readOnly: true
       volumes:
         - name: certs
-          hostPath:
-            path: {{.Values.companion.certs.hostpath}}
+          secret:
+            secretName: certs-secrets
