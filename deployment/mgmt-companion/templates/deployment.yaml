@@ -20,6 +20,9 @@ spec:
             - name: certs
               mountPath: /certs
               readOnly: true
+          env:
+            - name: KAFKA_BROKER
+              value: {{.Values.kafka.broker}}
       volumes:
         - name: certs
           secret:

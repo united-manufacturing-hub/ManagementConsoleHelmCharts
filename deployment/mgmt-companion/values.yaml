@@ -4,3 +4,5 @@ secrets:
   agent:
     cert: "BASE64"
     key: "BASE64"
+kafka:
+  broker: kafka1.mgmt.umh.app:31092
