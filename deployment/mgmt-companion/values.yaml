@@ -1,0 +1,6 @@
+secrets:
+  company:
+    cert: "BASE64"
+  agent:
+    cert: "BASE64"
+    key: "BASE64"
