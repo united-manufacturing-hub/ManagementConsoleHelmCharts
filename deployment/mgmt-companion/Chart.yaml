@@ -4,5 +4,5 @@ description: This helm charts deploys the companion plugin for the management co
 
 type: application
 
-version: 0.0.16
-appVersion: "0.0.16"
+version: 0.0.17
+appVersion: "0.0.17"
