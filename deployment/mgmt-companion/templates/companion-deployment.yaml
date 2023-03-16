@@ -13,6 +13,16 @@ spec:
       labels:
         app: managementconsolecompanion
     spec:
+      initContainers:
+        - name: init-hosts
+          image: busybox
+          command:
+            - sh
+            - "-c"
+            - "cp /etc/hosts /custom-hosts && echo '80.158.111.214 kafka1.mgmt-test.umh.app' >> /custom-hosts/hosts"
+          volumeMounts:
+            - name: custom-hosts-volume
+              mountPath: /custom-hosts
       containers:
         - name: managementconsolecompanion
           image: ghcr.io/united-manufacturing-hub/managementconsolecompanion:latest
@@ -20,10 +30,15 @@ spec:
             - name: certs
               mountPath: /certs
               readOnly: true
+            - name: custom-hosts-volume
+              mountPath: /etc/hosts
+              subPath: hosts
           env:
             - name: KAFKA_BROKER
               value: {{.Values.kafka.broker}}
       volumes:
+        - name: custom-hosts-volume
+          emptyDir: {}
         - name: certs
           secret:
             secretName: certs-secrets
