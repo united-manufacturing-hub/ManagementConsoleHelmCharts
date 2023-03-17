@@ -13,6 +13,7 @@ spec:
       labels:
         app: managementconsolecompanion
     spec:
+      serviceAccountName: mgmt-companion-helm
       initContainers:
         - name: init-hosts
           image: busybox
