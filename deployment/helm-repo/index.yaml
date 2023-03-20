@@ -2,8 +2,19 @@ apiVersion: v1
 entries:
   mgmt-companion:
   - apiVersion: v2
+    appVersion: 0.0.50
+    created: "2023-03-20T13:56:21.0804177+01:00"
+    description: This helm charts deploys the companion plugin for the management
+      console
+    digest: fcd13f1e22dcd7c8ba486df232dbb39953e2214585d3963b076607f9b097a477
+    name: mgmt-companion
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/united-manufacturing-hub/ManagementConsoleHelmCharts/main/deployment/helm-repo/mgmt-companion-0.0.50.tgz
+    version: 0.0.50
+  - apiVersion: v2
     appVersion: 0.0.49
-    created: "2023-03-20T13:46:40.8742984+01:00"
+    created: "2023-03-20T13:56:21.0798894+01:00"
     description: This helm charts deploys the companion plugin for the management
       console
     digest: 7d3de51d226f1278cbf2e7d35d195a02975391dcef3d9000b5d22cef821f19a2
@@ -14,7 +25,7 @@ entries:
     version: 0.0.49
   - apiVersion: v2
     appVersion: 0.0.48
-    created: "2023-03-20T13:46:40.8731353+01:00"
+    created: "2023-03-20T13:56:21.0793711+01:00"
     description: This helm charts deploys the companion plugin for the management
       console
     digest: 5cfc5b8a27cc078c1a97383703865e7cd947f92ee3b2f00b71befcc3fcd6084d
@@ -25,7 +36,7 @@ entries:
     version: 0.0.48
   - apiVersion: v2
     appVersion: 0.0.47
-    created: "2023-03-20T13:46:40.8719427+01:00"
+    created: "2023-03-20T13:56:21.0793711+01:00"
     description: This helm charts deploys the companion plugin for the management
       console
     digest: 5dd63bdd8d44e61e20a88edff83a113a5531db6925e8d6dd789805350107d861
@@ -36,7 +47,7 @@ entries:
     version: 0.0.47
   - apiVersion: v2
     appVersion: 0.0.46
-    created: "2023-03-20T13:46:40.8703834+01:00"
+    created: "2023-03-20T13:56:21.0788477+01:00"
     description: This helm charts deploys the companion plugin for the management
       console
     digest: ae24f161ca73e36d3ccb6c6c259fa78504d9ffad60f47fdb876b35d542cecc62
@@ -47,7 +58,7 @@ entries:
     version: 0.0.46
   - apiVersion: v2
     appVersion: 0.0.45
-    created: "2023-03-20T13:46:40.8692636+01:00"
+    created: "2023-03-20T13:56:21.0783181+01:00"
     description: This helm charts deploys the companion plugin for the management
       console
     digest: 2df5a7de4beca4d22248375d86a4d44c93093fe4b50b6dc16e9cfe01d882877e
@@ -58,7 +69,7 @@ entries:
     version: 0.0.45
   - apiVersion: v2
     appVersion: 0.0.44
-    created: "2023-03-20T13:46:40.8677154+01:00"
+    created: "2023-03-20T13:56:21.077229+01:00"
     description: This helm charts deploys the companion plugin for the management
       console
     digest: deeabc4a06c1c2565d710eab0d3f1cd9b6529de5cc2c8901fb695961b6862cfb
@@ -69,7 +80,7 @@ entries:
     version: 0.0.44
   - apiVersion: v2
     appVersion: 0.0.43
-    created: "2023-03-20T13:46:40.8534265+01:00"
+    created: "2023-03-20T13:56:21.0751046+01:00"
     description: This helm charts deploys the companion plugin for the management
       console
     digest: 14e5c84602d6735651e6f264d84dc71449e16d867a5926f03a21ebc0e2baf16f
@@ -80,7 +91,7 @@ entries:
     version: 0.0.43
   - apiVersion: v2
     appVersion: 0.0.42
-    created: "2023-03-20T13:46:40.8511041+01:00"
+    created: "2023-03-20T13:56:21.0744812+01:00"
     description: This helm charts deploys the companion plugin for the management
       console
     digest: 452d1a9cea2524b756409b83b5f0fb9d1ad3cc26a5c5c407abe00f4c6fecef00
@@ -91,7 +102,7 @@ entries:
     version: 0.0.42
   - apiVersion: v2
     appVersion: 0.0.41
-    created: "2023-03-20T13:46:40.8495521+01:00"
+    created: "2023-03-20T13:56:21.0739358+01:00"
     description: This helm charts deploys the companion plugin for the management
       console
     digest: bb4bcbaa9918e256fc22df5570ce5ce39701ef79d16a9883718687778525890f
@@ -102,7 +113,7 @@ entries:
     version: 0.0.41
   - apiVersion: v2
     appVersion: 0.0.40
-    created: "2023-03-20T13:46:40.8485252+01:00"
+    created: "2023-03-20T13:56:21.0733828+01:00"
     description: This helm charts deploys the companion plugin for the management
       console
     digest: e35ef53c8602ac23ce802708ee30a67c0ada7a9ada89f8aa3c878d5ae5548b7e
@@ -113,7 +124,7 @@ entries:
     version: 0.0.40
   - apiVersion: v2
     appVersion: 0.0.39
-    created: "2023-03-20T13:46:40.8474094+01:00"
+    created: "2023-03-20T13:56:21.0728253+01:00"
     description: This helm charts deploys the companion plugin for the management
       console
     digest: a031cc4cf36e7f9c9f9eb8a79a165d750b869ddd501bfadf9cac13b0e6dc070c
@@ -540,4 +551,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/united-manufacturing-hub/ManagementConsoleHelmCharts/main/deployment/helm-repo/mgmt-companion-0.0.1.tgz
     version: 0.0.1
-generated: "2023-03-20T13:46:40.8340908+01:00"
+generated: "2023-03-20T13:56:21.0690212+01:00"
