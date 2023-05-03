@@ -2,8 +2,23 @@ apiVersion: v1
 entries:
   mgmt-companion:
   - apiVersion: v2
+    appVersion: 0.0.72
+    created: "2023-05-03T17:19:08.60356+02:00"
+    dependencies:
+    - name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      version: 0.25.0
+    description: This helm charts deploys the companion plugin for the management
+      console
+    digest: bd7924532d8aa1a8d2157e670b90832075479db205a1237477089fddd40aea25
+    name: mgmt-companion
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/united-manufacturing-hub/ManagementConsoleHelmCharts/main/deployment/helm-repo/mgmt-companion-0.0.72.tgz
+    version: 0.0.72
+  - apiVersion: v2
     appVersion: 0.0.71
-    created: "2023-04-17T16:53:25.221021+02:00"
+    created: "2023-05-03T17:19:08.6020043+02:00"
     dependencies:
     - name: fluent-bit
       repository: https://fluent.github.io/helm-charts
@@ -739,4 +754,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/united-manufacturing-hub/ManagementConsoleHelmCharts/main/deployment/helm-repo/mgmt-companion-0.0.1.tgz
     version: 0.0.1
-generated: "2023-04-17T16:53:25.2035154+02:00"
+generated: "2023-05-03T17:19:08.5924974+02:00"
