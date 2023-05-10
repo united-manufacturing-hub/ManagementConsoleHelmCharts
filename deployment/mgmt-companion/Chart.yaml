@@ -4,8 +4,8 @@ description: This helm charts deploys the companion plugin for the management co
 
 type: application
 
-version: 0.0.74
-appVersion: "0.0.74"
+version: 0.0.75
+appVersion: "0.0.75"
 
 dependencies:
   - name: fluent-bit
