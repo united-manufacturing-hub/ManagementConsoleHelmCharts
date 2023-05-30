@@ -26,7 +26,8 @@ spec:
               mountPath: /custom-hosts
       containers:
         - name: managementconsolecompanion
-          image: ghcr.io/united-manufacturing-hub/managementconsolecompanion:latest
+          # Use Chart.yaml's version as the tag
+          image: ghcr.io/united-manufacturing-hub/managementconsolecompanion:{{.Chart.Version}}
           volumeMounts:
             - name: certs
               mountPath: /certs
