@@ -2,8 +2,23 @@ apiVersion: v1
 entries:
   mgmt-companion:
   - apiVersion: v2
+    appVersion: 0.0.92
+    created: "2023-06-01T17:35:21.8482526+02:00"
+    dependencies:
+    - name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      version: 0.25.0
+    description: This helm charts deploys the companion plugin for the management
+      console
+    digest: b5ddd9780bfe3c17a56acb8b9f74cd67ec54840112ddd043dae07e11f9a2663c
+    name: mgmt-companion
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/united-manufacturing-hub/ManagementConsoleHelmCharts/main/deployment/helm-repo/mgmt-companion-0.0.92.tgz
+    version: 0.0.92
+  - apiVersion: v2
     appVersion: 0.0.91
-    created: "2023-06-01T17:29:39.6669022+02:00"
+    created: "2023-06-01T17:35:21.845729+02:00"
     dependencies:
     - name: fluent-bit
       repository: https://fluent.github.io/helm-charts
@@ -18,7 +33,7 @@ entries:
     version: 0.0.91
   - apiVersion: v2
     appVersion: 0.0.90
-    created: "2023-06-01T17:29:39.6653924+02:00"
+    created: "2023-06-01T17:35:21.8431534+02:00"
     dependencies:
     - name: fluent-bit
       repository: https://fluent.github.io/helm-charts
@@ -33,7 +48,7 @@ entries:
     version: 0.0.90
   - apiVersion: v2
     appVersion: 0.0.89
-    created: "2023-06-01T17:29:39.66481+02:00"
+    created: "2023-06-01T17:35:21.841044+02:00"
     dependencies:
     - name: fluent-bit
       repository: https://fluent.github.io/helm-charts
@@ -48,7 +63,7 @@ entries:
     version: 0.0.89
   - apiVersion: v2
     appVersion: 0.0.88
-    created: "2023-06-01T17:29:39.6637759+02:00"
+    created: "2023-06-01T17:35:21.8394758+02:00"
     dependencies:
     - name: fluent-bit
       repository: https://fluent.github.io/helm-charts
@@ -63,7 +78,7 @@ entries:
     version: 0.0.88
   - apiVersion: v2
     appVersion: 0.0.87
-    created: "2023-06-01T17:29:39.662189+02:00"
+    created: "2023-06-01T17:35:21.8384104+02:00"
     dependencies:
     - name: fluent-bit
       repository: https://fluent.github.io/helm-charts
@@ -78,7 +93,7 @@ entries:
     version: 0.0.87
   - apiVersion: v2
     appVersion: 0.0.86
-    created: "2023-06-01T17:29:39.6600573+02:00"
+    created: "2023-06-01T17:35:21.8362049+02:00"
     dependencies:
     - name: fluent-bit
       repository: https://fluent.github.io/helm-charts
@@ -93,7 +108,7 @@ entries:
     version: 0.0.86
   - apiVersion: v2
     appVersion: 0.0.85
-    created: "2023-06-01T17:29:39.6553769+02:00"
+    created: "2023-06-01T17:35:21.8346269+02:00"
     dependencies:
     - name: fluent-bit
       repository: https://fluent.github.io/helm-charts
@@ -108,7 +123,7 @@ entries:
     version: 0.0.85
   - apiVersion: v2
     appVersion: 0.0.84
-    created: "2023-06-01T17:29:39.6492201+02:00"
+    created: "2023-06-01T17:35:21.83198+02:00"
     dependencies:
     - name: fluent-bit
       repository: https://fluent.github.io/helm-charts
@@ -123,7 +138,7 @@ entries:
     version: 0.0.84
   - apiVersion: v2
     appVersion: 0.0.83
-    created: "2023-06-01T17:29:39.6444328+02:00"
+    created: "2023-06-01T17:35:21.8295363+02:00"
     dependencies:
     - name: fluent-bit
       repository: https://fluent.github.io/helm-charts
@@ -138,7 +153,7 @@ entries:
     version: 0.0.83
   - apiVersion: v2
     appVersion: 0.0.82
-    created: "2023-06-01T17:29:39.6392104+02:00"
+    created: "2023-06-01T17:35:21.8273471+02:00"
     dependencies:
     - name: fluent-bit
       repository: https://fluent.github.io/helm-charts
@@ -153,7 +168,7 @@ entries:
     version: 0.0.82
   - apiVersion: v2
     appVersion: 0.0.81
-    created: "2023-06-01T17:29:39.6336176+02:00"
+    created: "2023-06-01T17:35:21.8257841+02:00"
     dependencies:
     - name: fluent-bit
       repository: https://fluent.github.io/helm-charts
@@ -168,7 +183,7 @@ entries:
     version: 0.0.81
   - apiVersion: v2
     appVersion: 0.0.80
-    created: "2023-06-01T17:29:39.6283477+02:00"
+    created: "2023-06-01T17:35:21.8247327+02:00"
     dependencies:
     - name: fluent-bit
       repository: https://fluent.github.io/helm-charts
@@ -183,7 +198,7 @@ entries:
     version: 0.0.80
   - apiVersion: v2
     appVersion: 0.0.79
-    created: "2023-06-01T17:29:39.6222724+02:00"
+    created: "2023-06-01T17:35:21.8231791+02:00"
     dependencies:
     - name: fluent-bit
       repository: https://fluent.github.io/helm-charts
@@ -198,7 +213,7 @@ entries:
     version: 0.0.79
   - apiVersion: v2
     appVersion: 0.0.78
-    created: "2023-06-01T17:29:39.6149473+02:00"
+    created: "2023-06-01T17:35:21.8210413+02:00"
     dependencies:
     - name: fluent-bit
       repository: https://fluent.github.io/helm-charts
@@ -213,7 +228,7 @@ entries:
     version: 0.0.78
   - apiVersion: v2
     appVersion: 0.0.77
-    created: "2023-06-01T17:29:39.610752+02:00"
+    created: "2023-06-01T17:35:21.8199864+02:00"
     dependencies:
     - name: fluent-bit
       repository: https://fluent.github.io/helm-charts
@@ -228,7 +243,7 @@ entries:
     version: 0.0.77
   - apiVersion: v2
     appVersion: 0.0.76
-    created: "2023-06-01T17:29:39.6059736+02:00"
+    created: "2023-06-01T17:35:21.8184215+02:00"
     dependencies:
     - name: fluent-bit
       repository: https://fluent.github.io/helm-charts
@@ -243,7 +258,7 @@ entries:
     version: 0.0.76
   - apiVersion: v2
     appVersion: 0.0.75
-    created: "2023-06-01T17:29:39.6007608+02:00"
+    created: "2023-06-01T17:35:21.8168617+02:00"
     dependencies:
     - name: fluent-bit
       repository: https://fluent.github.io/helm-charts
@@ -258,7 +273,7 @@ entries:
     version: 0.0.75
   - apiVersion: v2
     appVersion: 0.0.74
-    created: "2023-06-01T17:29:39.5954118+02:00"
+    created: "2023-06-01T17:35:21.8158145+02:00"
     dependencies:
     - name: fluent-bit
       repository: https://fluent.github.io/helm-charts
@@ -273,7 +288,7 @@ entries:
     version: 0.0.74
   - apiVersion: v2
     appVersion: 0.0.73
-    created: "2023-06-01T17:29:39.5891449+02:00"
+    created: "2023-06-01T17:35:21.8137039+02:00"
     dependencies:
     - name: fluent-bit
       repository: https://fluent.github.io/helm-charts
@@ -288,7 +303,7 @@ entries:
     version: 0.0.73
   - apiVersion: v2
     appVersion: 0.0.72
-    created: "2023-06-01T17:29:39.5812454+02:00"
+    created: "2023-06-01T17:35:21.8096241+02:00"
     dependencies:
     - name: fluent-bit
       repository: https://fluent.github.io/helm-charts
@@ -303,7 +318,7 @@ entries:
     version: 0.0.72
   - apiVersion: v2
     appVersion: 0.0.71
-    created: "2023-06-01T17:29:39.5748003+02:00"
+    created: "2023-06-01T17:35:21.8027869+02:00"
     dependencies:
     - name: fluent-bit
       repository: https://fluent.github.io/helm-charts
@@ -1039,4 +1054,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/united-manufacturing-hub/ManagementConsoleHelmCharts/main/deployment/helm-repo/mgmt-companion-0.0.1.tgz
     version: 0.0.1
-generated: "2023-06-01T17:29:39.5684763+02:00"
+generated: "2023-06-01T17:35:21.7986946+02:00"
