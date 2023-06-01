@@ -7,3 +7,4 @@ secrets:
 
 kafka:
   broker: kafka1.mgmt.umh.app:31092
+  httpBroker: https://kafka1.mgmt.umh.app
