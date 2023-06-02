@@ -38,6 +38,8 @@ spec:
           env:
             - name: KAFKA_BROKER
               value: {{.Values.kafka.broker}}
+            - name: HTTP_BROKER
+              value: {{.Values.kafka.httpBroker}}
       volumes:
         - name: custom-hosts-volume
           emptyDir: {}
