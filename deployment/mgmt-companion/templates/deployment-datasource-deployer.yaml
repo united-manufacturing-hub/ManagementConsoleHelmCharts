@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mgmtconsoledatasourcedeployer
+  namespace: mgmt-companion
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mgmtconsoledatasourcedeployer
+  template:
+    metadata:
+      labels:
+        app: mgmtconsoledatasourcedeployer
+    spec:
+      serviceAccountName: mgmt-companion-helm
+      containers:
+        - name: mgmtconsoledatasourcedeployer
+          image: ghcr.io/united-manufacturing-hub/managmentconsoledatasourcedeployer:{{.Chart.Version}}
