@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: configmap-datasource
+  namespace: mgmt-companion
+data:
+  datasource.yaml: |-
+    benthos:
+      opcua:
+        devices:
+          - endpoint: "opc.tcp://united-manufacturing-hub-opcuasimulator-service:46010"
+            nodes:
+              - id: "ns=2;s=IoTSensors"
+
