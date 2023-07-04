@@ -8,3 +8,13 @@ secrets:
 kafka:
   broker: kafka1.mgmt.umh.app:31092
   httpBroker: https://kafka1.mgmt.umh.app
+
+opcua:
+  devices:
+    - endpoint: "opc.tcp://united-manufacturing-hub-opcuasimulator-service:46010"
+      nodes:
+        - "ns=2;s=IoTSensors"
+        - "ns=3;s=OtherSensor"
+    - endpoint: "opc.tcp://second-opcuasimulator-service:46010"
+      nodes:
+        - "ns=4;s=AnotherSensor"

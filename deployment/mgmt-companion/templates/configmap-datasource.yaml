@@ -8,7 +8,10 @@ data:
     benthos:
       opcua:
         devices:
-          - endpoint: "opc.tcp://united-manufacturing-hub-opcuasimulator-service:46010"
+{{- range .Values.opcua.devices }}
+          - endpoint: {{ .endpoint }}
             nodes:
-              - id: "ns=2;s=IoTSensors"
-
+{{- range .nodes }}
+              - id: {{ . }}
+{{- end }}
+{{- end }}
