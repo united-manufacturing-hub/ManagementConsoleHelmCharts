@@ -12,9 +12,11 @@ kafka:
 opcua:
   devices:
     - endpoint: "opc.tcp://united-manufacturing-hub-opcuasimulator-service:46010"
+      keyname: "sampleDataSource01"
       nodes:
         - "ns=2;s=IoTSensors"
         - "ns=3;s=OtherSensor"
     - endpoint: "opc.tcp://second-opcuasimulator-service:46010"
+      keyname: "sampleDataSource02" 
       nodes:
         - "ns=4;s=AnotherSensor"

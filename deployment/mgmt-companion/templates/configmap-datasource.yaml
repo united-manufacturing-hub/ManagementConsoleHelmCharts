@@ -10,6 +10,7 @@ data:
         devices:
 {{- range .Values.opcua.devices }}
           - endpoint: {{ .endpoint }}
+            keyname: {{ .keyname }}
             nodes:
 {{- range .nodes }}
               - id: {{ . }}
