@@ -19,6 +19,8 @@ $helmChartPath = $scriptPath
 ## Goto ManagementConsoleHelmCharts repo
 Set-Location $helmChartPath
 
+git pull
+
 # Get the current version
 $currentVersion = (Get-Content deployment\mgmt-companion\Chart.yaml) -match '^version: \d+\.\d+\.\d+'
 Write-Host "Current version: $currentVersion"
@@ -76,6 +78,7 @@ foreach ($xPath in $paths)
 {
 
     Set-Location $xPath
+    git pull
     # Build and push container
     Invoke-Expression "& .\build_and_push_container.ps1 -tag $releaseVersionX"
     if ($LASTEXITCODE -ne 0)
