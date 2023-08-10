@@ -6,4 +6,5 @@ metadata:
 data:
   datasource.yaml: |-
     benthos:
-      {{- toYaml .Values.opcua | nindent 6 }}
+      opcua:
+        {{- toYaml .Values.opcua | nindent 8 }}
