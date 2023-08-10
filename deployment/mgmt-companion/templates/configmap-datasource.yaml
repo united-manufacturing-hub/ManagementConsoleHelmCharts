@@ -6,13 +6,4 @@ metadata:
 data:
   datasource.yaml: |-
     benthos:
-      opcua:
-        devices:
-{{- range .Values.opcua.devices }}
-          - endpoint: {{ .endpoint }}
-            keyname: {{ .keyname }}
-            nodes:
-{{- range .nodes }}
-              - id: {{ . }}
-{{- end }}
-{{- end }}
+      {{- toYaml .Values.opcua | nindent 6 }}
