@@ -12,9 +12,9 @@ kafka:
 opcua:
   devices:
     - endpoint: "opc.tcp://united-manufacturing-hub-opcuasimulator-service:46010"
-      keyname: "opcua-simulator-ns2-iot-sensors"
+      keyname: "opcua-simulator-ns2-temperature"
       nodes:
-        - nodeid: "ns=2;s=IotSensors"
+        - nodeid: "ns=2;s=Temperature"
           tagName: "pressure"
           enterprise: "umh"
           site: "cologne"
