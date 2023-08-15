@@ -11,8 +11,8 @@ kafka:
 
 opcua:
   devices:
-    - endpoint: "opc.tcp://second-opcuasimulator-service:46010"
-      keyname: "sample01"
+    - endpoint: "opc.tcp://united-manufacturing-hub-opcuasimulator-service:46010"
+      keyname: "opcua-simulator-ns2-iot-sensors"
       nodes:
         - nodeid: "ns=2;s=IotSensors"
           tagName: "pressure"
@@ -21,5 +21,5 @@ opcua:
           area: "unicorn"
           line: "some-line"
           workCell: "some-workcell"
-          originId: "plc-awd342"      
+          originId: "plc-01"
 
