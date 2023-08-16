@@ -2,8 +2,19 @@ apiVersion: v1
 entries:
   mgmt-companion:
   - apiVersion: v2
+    appVersion: 0.0.136
+    created: "2023-08-16T10:56:29.7508193+02:00"
+    description: This helm charts deploys the companion plugin for the management
+      console
+    digest: 5b73d41f4afd7b2b179b703a64f8ecca9d8f6474876eed4a81d8d1a782b85dc7
+    name: mgmt-companion
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/united-manufacturing-hub/ManagementConsoleHelmCharts/main/deployment/helm-repo/mgmt-companion-0.0.136.tgz
+    version: 0.0.136
+  - apiVersion: v2
     appVersion: 0.0.135
-    created: "2023-08-15T11:09:59.4903495+02:00"
+    created: "2023-08-16T10:56:29.7508193+02:00"
     description: This helm charts deploys the companion plugin for the management
       console
     digest: 80dbf5322f254fe0d452744ec873410f74576c5babc704738e0bcf2f3be30629
@@ -14,7 +25,7 @@ entries:
     version: 0.0.135
   - apiVersion: v2
     appVersion: 0.0.134
-    created: "2023-08-15T11:09:59.4898304+02:00"
+    created: "2023-08-16T10:56:29.7481919+02:00"
     description: This helm charts deploys the companion plugin for the management
       console
     digest: c0a8bab94be674e58e6d8cfd2754a5e0a6bf0fce792751248c2a478900158881
@@ -25,7 +36,7 @@ entries:
     version: 0.0.134
   - apiVersion: v2
     appVersion: 0.0.133
-    created: "2023-08-15T11:09:59.4898304+02:00"
+    created: "2023-08-16T10:56:29.7455999+02:00"
     description: This helm charts deploys the companion plugin for the management
       console
     digest: 0916ed1a68564272e869478169318800f40ea69cdf2cdf6566cb3c263cc54173
@@ -36,7 +47,7 @@ entries:
     version: 0.0.133
   - apiVersion: v2
     appVersion: 0.0.132
-    created: "2023-08-15T11:09:59.4893085+02:00"
+    created: "2023-08-16T10:56:29.7435119+02:00"
     description: This helm charts deploys the companion plugin for the management
       console
     digest: d9bdba549a10ebf96483192eafab8c5c1966a5bb26f02dfbebde363fe6f481c5
@@ -47,7 +58,7 @@ entries:
     version: 0.0.132
   - apiVersion: v2
     appVersion: 0.0.131
-    created: "2023-08-15T11:09:59.4893085+02:00"
+    created: "2023-08-16T10:56:29.7414439+02:00"
     description: This helm charts deploys the companion plugin for the management
       console
     digest: bd532dea091ea3045f0ece833429eeaae4960190419e3eba713b8280688dedee
@@ -58,7 +69,7 @@ entries:
     version: 0.0.131
   - apiVersion: v2
     appVersion: 0.0.130
-    created: "2023-08-15T11:09:59.4887914+02:00"
+    created: "2023-08-16T10:56:29.7393773+02:00"
     description: This helm charts deploys the companion plugin for the management
       console
     digest: 52de0490a861649b00872727dc4c252a15a60ba21290cc5b723e3b665ee33abd
@@ -69,7 +80,7 @@ entries:
     version: 0.0.130
   - apiVersion: v2
     appVersion: 0.0.129
-    created: "2023-08-15T11:09:59.4887914+02:00"
+    created: "2023-08-16T10:56:29.7373118+02:00"
     description: This helm charts deploys the companion plugin for the management
       console
     digest: 2885af07b35957b980d0aff68208c933e1b2d61e3a96ff2129d0967cb9ba69a4
@@ -80,7 +91,7 @@ entries:
     version: 0.0.129
   - apiVersion: v2
     appVersion: 0.0.128
-    created: "2023-08-15T11:09:59.4882758+02:00"
+    created: "2023-08-16T10:56:29.735241+02:00"
     description: This helm charts deploys the companion plugin for the management
       console
     digest: ace5ffdcd64e114de8d58873733fc1d56637b4d822ee83b1235b4570b8455af0
@@ -91,7 +102,7 @@ entries:
     version: 0.0.128
   - apiVersion: v2
     appVersion: 0.0.127
-    created: "2023-08-15T11:09:59.4877566+02:00"
+    created: "2023-08-16T10:56:29.7326148+02:00"
     description: This helm charts deploys the companion plugin for the management
       console
     digest: 210adfd7e821a0897e37e979e93736c03740be424bf1a304d142424c9c0f9a7d
@@ -102,7 +113,7 @@ entries:
     version: 0.0.127
   - apiVersion: v2
     appVersion: 0.0.126
-    created: "2023-08-15T11:09:59.4877566+02:00"
+    created: "2023-08-16T10:56:29.7305519+02:00"
     description: This helm charts deploys the companion plugin for the management
       console
     digest: 4d6114856dc9dbf84a8592dfdeb7a45fe760e6413cbb47c738117eb907b96b91
@@ -113,7 +124,7 @@ entries:
     version: 0.0.126
   - apiVersion: v2
     appVersion: 0.0.125
-    created: "2023-08-15T11:09:59.4872426+02:00"
+    created: "2023-08-16T10:56:29.72848+02:00"
     description: This helm charts deploys the companion plugin for the management
       console
     digest: cfbe78daaa24b534b9be2b4f542a43877b9740baa2914d7e309235f69288e3e5
@@ -124,7 +135,7 @@ entries:
     version: 0.0.125
   - apiVersion: v2
     appVersion: 0.0.124
-    created: "2023-08-15T11:09:59.4872426+02:00"
+    created: "2023-08-16T10:56:29.7264083+02:00"
     description: This helm charts deploys the companion plugin for the management
       console
     digest: c59bc8abf39912a530d01c20606f77498a68c70afc5fe1f70c33f99876a018f1
@@ -135,7 +146,7 @@ entries:
     version: 0.0.124
   - apiVersion: v2
     appVersion: 0.0.123
-    created: "2023-08-15T11:09:59.4867223+02:00"
+    created: "2023-08-16T10:56:29.7243349+02:00"
     description: This helm charts deploys the companion plugin for the management
       console
     digest: 0c6b940d9fcaf876380b8e0b2bfc8057c161ed1af4c61889953b42a41b53bc73
@@ -146,7 +157,7 @@ entries:
     version: 0.0.123
   - apiVersion: v2
     appVersion: 0.0.122
-    created: "2023-08-15T11:09:59.486211+02:00"
+    created: "2023-08-16T10:56:29.7222651+02:00"
     description: This helm charts deploys the companion plugin for the management
       console
     digest: 30c9710ccbfa17375f599427b1220c9a4587b520d09506cdc5c38b8004ddfbb0
@@ -157,7 +168,7 @@ entries:
     version: 0.0.122
   - apiVersion: v2
     appVersion: 0.0.121
-    created: "2023-08-15T11:09:59.4856923+02:00"
+    created: "2023-08-16T10:56:29.7201947+02:00"
     description: This helm charts deploys the companion plugin for the management
       console
     digest: a5494683042dc5f6382521a07c1c1d1b4492e9f99771abb50ce464cb51b934be
@@ -168,7 +179,7 @@ entries:
     version: 0.0.121
   - apiVersion: v2
     appVersion: 0.0.120
-    created: "2023-08-15T11:09:59.4856923+02:00"
+    created: "2023-08-16T10:56:29.7171094+02:00"
     description: This helm charts deploys the companion plugin for the management
       console
     digest: ae7372b76b2f76857db7eb8c6f402775e5849a0182eff1b96c5190510cfc2f9a
@@ -179,7 +190,7 @@ entries:
     version: 0.0.120
   - apiVersion: v2
     appVersion: 0.0.119
-    created: "2023-08-15T11:09:59.4851706+02:00"
+    created: "2023-08-16T10:56:29.7156058+02:00"
     description: This helm charts deploys the companion plugin for the management
       console
     digest: 17a6bf06d7798fe8e4eacaf19a1fc09d5ec9c3aeb3ab57f482630ac7b5c3a9ec
@@ -190,7 +201,7 @@ entries:
     version: 0.0.119
   - apiVersion: v2
     appVersion: 0.0.118
-    created: "2023-08-15T11:09:59.4851706+02:00"
+    created: "2023-08-16T10:56:29.7125995+02:00"
     description: This helm charts deploys the companion plugin for the management
       console
     digest: 334a8d317a85eea056bccf516be7f04ed94ff044dad287e9c4f8b5c84b2de041
@@ -201,7 +212,7 @@ entries:
     version: 0.0.118
   - apiVersion: v2
     appVersion: 0.0.117
-    created: "2023-08-15T11:09:59.4846428+02:00"
+    created: "2023-08-16T10:56:29.7110922+02:00"
     description: This helm charts deploys the companion plugin for the management
       console
     digest: d26c0b42fd2582999017788b256e23cf2311d11cc0efb9c5c09ee246e69da822
@@ -212,7 +223,7 @@ entries:
     version: 0.0.117
   - apiVersion: v2
     appVersion: 0.0.116
-    created: "2023-08-15T11:09:59.4846428+02:00"
+    created: "2023-08-16T10:56:29.7090091+02:00"
     description: This helm charts deploys the companion plugin for the management
       console
     digest: ebec0a24ac12eb6c3c0392662eab335272f80578babba05a7a0e9e5b805cf954
@@ -223,7 +234,7 @@ entries:
     version: 0.0.116
   - apiVersion: v2
     appVersion: 0.0.115
-    created: "2023-08-15T11:09:59.4841166+02:00"
+    created: "2023-08-16T10:56:29.7069389+02:00"
     description: This helm charts deploys the companion plugin for the management
       console
     digest: fd2b68da05acd899e1192d7561e7313c4764eed7abc5ebde3163790332bd8618
@@ -234,7 +245,7 @@ entries:
     version: 0.0.115
   - apiVersion: v2
     appVersion: 0.0.114
-    created: "2023-08-15T11:09:59.4841166+02:00"
+    created: "2023-08-16T10:56:29.704343+02:00"
     description: This helm charts deploys the companion plugin for the management
       console
     digest: 9f6f4c8e361c54d20f868e1cd2b48711ad611aa6b698f159b17482035b6135d0
@@ -245,7 +256,7 @@ entries:
     version: 0.0.114
   - apiVersion: v2
     appVersion: 0.0.113
-    created: "2023-08-15T11:09:59.4835998+02:00"
+    created: "2023-08-16T10:56:29.7022188+02:00"
     description: This helm charts deploys the companion plugin for the management
       console
     digest: 33e1e3c13c80270386608b68f53b7f3d72198dd3a85d81cd5f8f53cfbf0ec51c
@@ -256,7 +267,7 @@ entries:
     version: 0.0.113
   - apiVersion: v2
     appVersion: 0.0.112
-    created: "2023-08-15T11:09:59.4830774+02:00"
+    created: "2023-08-16T10:56:29.7001478+02:00"
     description: This helm charts deploys the companion plugin for the management
       console
     digest: 554aa0c608ca5c33c169a8388c427288369949bdfd92938ace58613e522f22ee
@@ -267,7 +278,7 @@ entries:
     version: 0.0.112
   - apiVersion: v2
     appVersion: 0.0.111
-    created: "2023-08-15T11:09:59.4825604+02:00"
+    created: "2023-08-16T10:56:29.698077+02:00"
     description: This helm charts deploys the companion plugin for the management
       console
     digest: e6f7c9ad43ae6c87b345c1e50b70bceef19c01f2414764388cc7229a4f49f30a
@@ -278,7 +289,7 @@ entries:
     version: 0.0.111
   - apiVersion: v2
     appVersion: 0.0.110
-    created: "2023-08-15T11:09:59.4825604+02:00"
+    created: "2023-08-16T10:56:29.6954769+02:00"
     dependencies:
     - name: fluent-bit
       repository: https://fluent.github.io/helm-charts
@@ -293,7 +304,7 @@ entries:
     version: 0.0.110
   - apiVersion: v2
     appVersion: 0.0.109
-    created: "2023-08-15T11:09:59.4815322+02:00"
+    created: "2023-08-16T10:56:29.6928932+02:00"
     dependencies:
     - name: fluent-bit
       repository: https://fluent.github.io/helm-charts
@@ -308,7 +319,7 @@ entries:
     version: 0.0.109
   - apiVersion: v2
     appVersion: 0.0.108
-    created: "2023-08-15T11:09:59.481017+02:00"
+    created: "2023-08-16T10:56:29.6897834+02:00"
     dependencies:
     - name: fluent-bit
       repository: https://fluent.github.io/helm-charts
@@ -323,7 +334,7 @@ entries:
     version: 0.0.108
   - apiVersion: v2
     appVersion: 0.0.106
-    created: "2023-08-15T11:09:59.4799898+02:00"
+    created: "2023-08-16T10:56:29.6871033+02:00"
     dependencies:
     - name: fluent-bit
       repository: https://fluent.github.io/helm-charts
@@ -338,7 +349,7 @@ entries:
     version: 0.0.106
   - apiVersion: v2
     appVersion: 0.0.105
-    created: "2023-08-15T11:09:59.4794751+02:00"
+    created: "2023-08-16T10:56:29.6839925+02:00"
     dependencies:
     - name: fluent-bit
       repository: https://fluent.github.io/helm-charts
@@ -353,7 +364,7 @@ entries:
     version: 0.0.105
   - apiVersion: v2
     appVersion: 0.0.104
-    created: "2023-08-15T11:09:59.4784392+02:00"
+    created: "2023-08-16T10:56:29.6803422+02:00"
     dependencies:
     - name: fluent-bit
       repository: https://fluent.github.io/helm-charts
@@ -368,7 +379,7 @@ entries:
     version: 0.0.104
   - apiVersion: v2
     appVersion: 0.0.103
-    created: "2023-08-15T11:09:59.4774163+02:00"
+    created: "2023-08-16T10:56:29.6771899+02:00"
     dependencies:
     - name: fluent-bit
       repository: https://fluent.github.io/helm-charts
@@ -383,7 +394,7 @@ entries:
     version: 0.0.103
   - apiVersion: v2
     appVersion: 0.0.102
-    created: "2023-08-15T11:09:59.4757944+02:00"
+    created: "2023-08-16T10:56:29.6728578+02:00"
     dependencies:
     - name: fluent-bit
       repository: https://fluent.github.io/helm-charts
@@ -398,7 +409,7 @@ entries:
     version: 0.0.102
   - apiVersion: v2
     appVersion: 0.0.101
-    created: "2023-08-15T11:09:59.4747628+02:00"
+    created: "2023-08-16T10:56:29.6703476+02:00"
     dependencies:
     - name: fluent-bit
       repository: https://fluent.github.io/helm-charts
@@ -413,7 +424,7 @@ entries:
     version: 0.0.101
   - apiVersion: v2
     appVersion: 0.0.100
-    created: "2023-08-15T11:09:59.4737247+02:00"
+    created: "2023-08-16T10:56:29.6663478+02:00"
     dependencies:
     - name: fluent-bit
       repository: https://fluent.github.io/helm-charts
@@ -428,7 +439,7 @@ entries:
     version: 0.0.100
   - apiVersion: v2
     appVersion: 0.0.99
-    created: "2023-08-15T11:09:59.4925194+02:00"
+    created: "2023-08-16T10:56:29.7565269+02:00"
     dependencies:
     - name: fluent-bit
       repository: https://fluent.github.io/helm-charts
@@ -443,7 +454,7 @@ entries:
     version: 0.0.99
   - apiVersion: v2
     appVersion: 0.0.98
-    created: "2023-08-15T11:09:59.4913819+02:00"
+    created: "2023-08-16T10:56:29.7534188+02:00"
     dependencies:
     - name: fluent-bit
       repository: https://fluent.github.io/helm-charts
@@ -456,4 +467,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/united-manufacturing-hub/ManagementConsoleHelmCharts/main/deployment/helm-repo/mgmt-companion-0.0.98.tgz
     version: 0.0.98
-generated: "2023-08-15T11:09:59.4726951+02:00"
+generated: "2023-08-16T10:56:29.6623489+02:00"
